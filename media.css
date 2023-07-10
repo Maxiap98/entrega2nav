@@ -60,6 +60,10 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
   }
+
+  toggle-menu {
+    background-color: black;
+  }
   .heroinfo p {
     max-width: 100%;
   }

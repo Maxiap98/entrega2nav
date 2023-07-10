@@ -24,6 +24,10 @@
 }
 
 /* burger */
+
+.header {
+  background-color: black;
+}
 .navbar {
   display: flex;
 }
