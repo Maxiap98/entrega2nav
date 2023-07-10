@@ -1,0 +1,84 @@
+@media (max-width: 1012px) {
+  .textologo {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .textologo {
+    display: none;
+  }
+  .heroinfo {
+    text-align: center;
+    width: 90%;
+    align-items: center;
+  }
+  .heroinfo h1 {
+    width: 100%;
+  }
+  .heroinfo p {
+    max-width: 80%;
+    font-size: 16px;
+  }
+  .herobtns {
+    justify-content: center;
+  }
+  .heroimg {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar ul {
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    transition: all 0.8s ease-out;
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    -ms-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+  }
+  .navbar i {
+    display: block;
+  }
+  #toggle-menu:checked + .navbar-list {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  .heroinfo p {
+    max-width: 100%;
+  }
+
+  #cardscontainer {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    text-align: center;
+  }
+  .map img {
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

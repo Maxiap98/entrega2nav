@@ -4,49 +4,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styless.css" />
-    <title>Menu de navegacion</title>
+    <link rel="stylesheet" href="media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Boca - Site</title>
   </head>
   <body>
-    <nav>
-      <img src="./descarga.png" alt="logo" class="logo" />
-      <ul class="lista">
-        <li class="element"><a href="#">Home</a></li>
-        <li class="element"><a href="#">About us</a></li>
-        <li class="element"><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <header class="header">
+      <img src="./descarga.png" alt="Logo bombonera" />
+      <div class="textologo">
+        <span>Club atlético Boca Juniors</span>
+      </div>
+      <nav class="navbar">
+        <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="navbar-list">
+          <li><a href="#" class="navlink">Institución</a></li>
+          <li><a href="#" class="navlink">Ubicación</a></li>
+          <li><a href="#" class="navlink">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <section id="hero">
-        <div class="hero-info">
-          <h1>Competencias internacionales conquistadas</h1>
+        <div class="heroinfo">
+          <h1>Copas internacionales <span>Conquistadas por el Club</span></h1>
           <p>
             Boca Juniors ha ganado veintidós títulos internacionales, de los
             cuales dieciocho son reconocidos por CONMEBOL/FIFA: La Copa
             Intercontinental en 1977, 2000 y 2003; la Copa Libertadores de
             América en 1977, 1978, 2000, 2001, 2003 y 2007; la Copa Sudamericana
-            en 2004 y 2005; la Recopa Sudamericana en 1990, 2005, 2006, y 2008
+            en 2004 y 2005; la Recopa Sudamericana en 1990, 2005, 2006, y 2008;
+            la Supercopa Sudamericana en 1989; la Copa Máster de Supercopa en
+            1992; y la Copa de Oro Nicolás Leoz en 1993. También ganó cuatro
+            títulos reconocidos por AFA/AUF: la Cup Tie Competition en 1919; la
+            Copa de Honor Cousenier en 1920; y la Copa de Confraternidad
+            Escobar-Gerona en 1945 y 1946, siendo así uno de los clubes más
+            laureados del fútbol mundial.
           </p>
-          <div class="herobutton">
-            <a href="#">Historia de boca juniors</a>
-            <a href="#">Historia de boca juniors</a>
+          <div class="herobtns">
+            <a href="" class="primerboton">Próximos partidos </a>
+            <a href="" class="segundoboton">Inferiores</a>
           </div>
         </div>
-        <div class="hero-card">
-          <img src="./9cf.jpg" alt="Copas" />
-        </div>
+        <img src="./imagen.jpg" alt="Copas internacionales" class="heroimg" />
       </section>
-      <section>
-        <div class="anothersection">
+
+      <section id="about">
+        <p>
+          El Club Atlético Boca Juniors es una entidad deportiva argentina,
+          ubicada en el barrio de La Boca, en el sudeste de la Ciudad de Buenos
+          Aires, la capital del país. Está afiliado a la Asociación del Fútbol
+          Argentino la cual es miembro fundador de la Confederación Sudamericana
+          de Fútbol (Conmebol), que a su vez, es una de las seis confederaciones
+          reconocidas por Federación Internacional de Fútbol Asociación
+        </p>
+      </section>
+      <div class="separador">
+        <h2>Idolos del club</h2>
+      </div>
+      <section id="cardscontainer">
+        <div class="card">
+          <img src="./Riquelme.jpg" alt="JRR10" />
+          <h3>Juan Román Riquelme</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, ab
-            alias, ex magnam rerum qui optio quis distinctio repellat molestias
-            assumenda, inventore tenetur a aliquid quia incidunt? Nemo nisi
-            doloribus animi? Nesciunt odit culpa ullam sunt vero quo dolore sint
-            hic minus error. Distinctio minima odio accusantium inventore!
-            Nesciunt, error?
+            <b class="elemento2">Apodos:</b>J.R.R, El último 10, El torero
+            <br />
+            <b class="elemento2">Nacimiento:</b>Partido de San Fernando,<br />
+            24 de junio de 1978
+          </p>
+        </div>
+        <div class="card">
+          <img src="./Palermo.jpg" alt="JRR10" />
+          <h3>Martin Palermo</h3>
+          <p>
+            <b class="elemento2">Apodos:</b>El TITAN <br />
+            <b class="elemento2">Nacimiento:</b>La plata, Prov de Buenos
+            Aires,<br />
+            7 de noviembre de 1973
+          </p>
+        </div>
+        <div class="card">
+          <img src="./diego.png" alt="JRR10" />
+          <h3>Diego Armando Maradona</h3>
+          <p>
+            <b class="elemento2">Apodos:</b> Pelusa, Barrilete Cosmico, D10S
+            <br />
+            <b class="elemento2">Nacimiento:</b> Lanus, Prov de Buenos Aires,<br />
+            30 de octubre de 1960 - ∞
           </p>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container">
+        <div class="map">
+          <img src="bomboneralocation.jpg" alt="Mapa" />
+        </div>
+        <div class="location">
+          <p>Brandsen 805, La Boca, Buenos Aires</p>
+          <div class="icons">
+            <i class="fas fa-phone"> 1159081578</i>
+            <i class="fas fa-envelope"> info@bocajuniors.com.ar</i>
+            <i class="fab fa-facebook"> facebook.com/laboca</i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>&copy; 2023 Bombonera. Todos los derechos reservados.</p>
+    </div>
   </body>
 </html>
