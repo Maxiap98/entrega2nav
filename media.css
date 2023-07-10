@@ -60,10 +60,10 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
   }
-
-  toggle-menu {
-    background-color: black;
+  .header {
+    background-color: white;
   }
+
   .heroinfo p {
     max-width: 100%;
   }
@@ -75,6 +75,9 @@
   .container {
     display: flex;
     flex-direction: column;
+  }
+  .navbar-list li a {
+    color: black;
   }
   .map {
     text-align: center;
